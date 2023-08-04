@@ -1,0 +1,122 @@
+/* common css style here */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: inline-block;
+}
+
+.navbar-brand,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/* nav section style start here */
+
+nav {
+  border-bottom: 2px solid rgba(63, 63, 63, 0.2);
+
+}
+
+nav .navbar-brand {
+  display: flex;
+  justify-content: center;
+}
+
+
+nav .navbar-nav {
+  column-gap: 70px;
+  margin-right: 101px;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  padding: 0;
+  color: #3F3F3F;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 200%;
+}
+
+
+nav form {
+  column-gap: 23px;
+}
+
+nav form a {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+  padding: 12px 50px;
+  border-radius: 225px;
+  background: #396C03;
+
+}
+
+
+nav form .icon .shopIcon {
+  font-size: 24px;
+  color: #FFF;
+  width: 60px;
+  height: 60px;
+  background-color: #396C03;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav form .icon {
+  position: relative;
+}
+
+nav form .icon p {
+  position: absolute;
+  left: 40px;
+  bottom: 38px;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  background: #FF8B00;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* nav section style end here */
