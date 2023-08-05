@@ -40,7 +40,9 @@ li {
 
 nav {
   border-bottom: 2px solid rgba(63, 63, 63, 0.2);
-
+  position: absolute !important;
+  top: 17px;
+  width: 100%;
 }
 
 nav .navbar-brand {
@@ -120,3 +122,120 @@ nav form .icon p {
 
 
 /* nav section style end here */
+
+
+/* banner section style start here */
+#banner_part {
+  background: rgba(107, 145, 66, 0.1);
+  position: relative;
+}
+
+#banner_part .text {
+  padding: 308px 0 139px;
+  position: relative;
+}
+
+#banner_part .text img {
+  position: absolute;
+  top: 28px;
+  left: -100px;
+  filter: blur(5px);
+}
+
+#banner_part .text h2 {
+  color: #396C03;
+  font-family: Merienda;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  width: 681px;
+}
+
+
+
+#banner_part .text p {
+  color: #676767;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 27px 0 !important;
+}
+
+#banner_part .text h2 span {
+  color: #FF8B00;
+}
+
+
+#banner_part .text form {
+  position: relative;
+}
+
+#banner_part .text form input {
+  color: #C7C7C7;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+  padding: 16px 74px;
+  border-radius: 120px;
+  border: 2px solid #396C03;
+  background: #FFF;
+  width: 714px;
+  height: 69px;
+}
+
+#banner_part .text form .ellips {
+  position: absolute;
+  font-size: 49px;
+  color: #FF8B00;
+  top: 10px;
+  left: 9px;
+
+}
+
+
+#banner_part .text form a {
+  padding: 15px 50px;
+  border-radius: 100px;
+  background: #396C03;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+  position: absolute;
+  left: 508px;
+  height: 69px;
+}
+
+
+#banner_part .image {
+  padding: 249px 0 110px;
+  position: relative;
+  z-index: 2;
+}
+
+#banner_part .image .patha {
+  position: absolute;
+  top: 102px;
+  left: 400px;
+  z-index: -1;
+  filter: blur(2.5px);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* banner section style end here */
