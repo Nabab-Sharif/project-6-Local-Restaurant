@@ -236,6 +236,7 @@ nav form .icon p {
 /* favourite city section style start here */
 #favouritecity_part {
   padding: 146px 0;
+  background: #FFF9F2;
 }
 
 #favouritecity_part .food_information h2 {
@@ -286,20 +287,143 @@ nav form .icon p {
 
 #favouritecity_part .food_person_picture {
   position: relative;
+
 }
 
 #favouritecity_part .person_image {
+  background: url(../images/favoritecity1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 751px;
+  height: 500.667px;
   position: absolute;
-  top: 0;
-  left: 80px;
+  top: -100px;
+  left: 99px;
 }
+
+
 
 #favouritecity_part .person_image .food_person {
   position: absolute;
   left: 85px;
   top: 29px;
+
+}
+
+/* favourite city section style end here */
+
+
+
+
+
+
+/* food service section style start here */
+#service_part {
+  padding: 105px 0;
+}
+
+#service_part .service_card {
+  padding: 60px 47px 38px 54px;
+  border-radius: 15px;
 }
 
 
 
-/* favourite city section style end here */
+#service_part .service_card:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #FFF9F2;
+}
+
+
+
+
+#service_part .service_card h4 {
+  width: 293px;
+  color: #3F3F3F;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 22px 0 7px !important;
+}
+
+
+#service_part .service_card p {
+  color: #676767;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 293px;
+}
+
+/* food service section style end here */
+
+
+
+
+
+/* food time section style start here */
+#foodTime_part {
+  padding-bottom: 105px;
+}
+
+
+#foodTime_part .foodTime_image {
+  background: url(../images/foodCooking.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 590px 0 50px;
+  text-align: center;
+  
+}
+
+
+
+#foodTime_part .foodTime_image h4 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+ 
+}
+
+
+
+#foodTime_part .foodTime_image p {
+  color: #EDEDED;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 19px 0 15px !important;
+}
+
+
+
+#foodTime_part .foodTime_image a {
+  border-radius: 224.4px;
+  background: var(--secondary, #FF8B00);
+  padding: 15px 60px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+}
+
+
+#foodTime_part .foodTime_image a i {
+  margin-left: 15px;
+}
+
+
+/* food time section style end here */
