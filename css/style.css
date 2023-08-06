@@ -625,8 +625,67 @@ nav form .icon p {
   border-radius: 28px;
 }
 
-
-
-
-
 /* app section style end here */
+
+
+
+/* footer section style start here */
+footer {
+  padding: 95px 0 40px;
+  background: #224300;
+}
+
+
+footer .footerText p {
+  color: #DEDEDE;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 485px;
+  margin-top: 10px !important;
+}
+
+
+footer .footerMenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer .footerMenu h4 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 35px !important;
+}
+
+
+
+footer .footerMenu li a {
+  color: #DEDEDE;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 13px !important;
+}
+
+
+footer .copy p {
+  color: #DEDEDE;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-top: 74px !important;
+}
+
+/* footer section style end here */
