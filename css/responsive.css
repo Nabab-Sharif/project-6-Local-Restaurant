@@ -26,47 +26,66 @@
     left: 3px;
   }
 
-
   #banner_part .text form input {
     font-size: 13px;
     padding: 16px 0 16px 34px;
-    width: auto;
+    width: 80%;
     border: 1px solid #396C03;
     outline: none;
   }
 
   #banner_part .text form a {
-    padding: 18px 23px;
-    font-size: 16px;
-    left: 166px;
-  }
-
-  #banner_part .text img {
-    left: -23px;
-    max-width: 50%;
+    padding: 21px 32px;
+    font-size: 13px;
+    left: 57%;
   }
 
 
-  #banner_part .image img {
-    max-width: 84%;
+  #banner_part .text .text_image {
+    left: -10px;
+    top: 30px;
+    width: 100%;
+    max-width: 158px;
+
+  }
+
+  #banner_part .image {
+    text-align: center;
+    padding: 0 !important;
+  }
+
+  #banner_part .image .rootImage {
+    width: 100%;
+    max-width: 400px;
   }
 
   #banner_part .image .patha {
-    top: -68px;
-    left: 175px;
-    max-width: 50%;
+    top: 161px;
+    left: 185px;
+    width: 100%;
+    max-width: 122px;
   }
 
 
-  #banner_part .image {
-    padding: 26px 0 110px;
-  }
 
-  #banner_part .text {
-    padding: 201px 0 139px;
-  }
 
   /* favoritecity section start here */
+  #favouritecity_part {
+    padding: 50px 0;
+
+  }
+
+  #favouritecity_part .row {
+    flex-direction: column-reverse;
+    row-gap: 250px;
+  }
+
+  #favouritecity_part .person_image {
+    width: 100%;
+    height: 203.667px;
+    left: 0;
+    top: -33px;
+  }
 
   #favouritecity_part .food_information h2 {
     width: auto;
@@ -78,22 +97,34 @@
     font-size: 14px;
   }
 
-  #favouritecity_part .person_image {
-    width: 100%;
-    left: 0;
-  }
+
 
   #favouritecity_part .person_image .food_person {
-    left: -189px;
+    left: 0;
+    width: 100%;
+    left: 15px;
+    top: 1px;
 
   }
+
 
   #favouritecity_part .food_person_picture {
-    margin-top: 56px;
+    margin-top: 189px;
+
   }
 
-  #favouritecity_part {
-    margin-bottom: 200px;
+
+
+
+  /* food sevice section start here */
+  #service_part .service_card h4 {
+    width: auto;
+    font-size: 20px;
+  }
+
+  #service_part .service_card p {
+    font-size: 13px;
+    width: auto;
   }
 
 
@@ -132,39 +163,27 @@
     margin-bottom: 87px;
   }
 
-  #question_part .question_part_text .question_part_text_first {
+  #question_part .question_part_text .question_and_icon p {
     font-size: 10px;
-    padding: 12px 0 12px 11px !important;
   }
 
-  #question_part .question_part_text .question_part_text_first i {
-    margin-left: 17%;
-    line-height: 1.9;
+  #question_part .question_part_text .question_and_icon i {
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    line-height: 1;
+    text-align: center;
+    border: 1px solid rgba(51, 51, 51, 0.3);
+    color: rgba(51, 51, 51, 0.5);
   }
 
-  #question_part .question_part_text .question_part_text_second .second_part_two_paragraph {
-    font-size: 12px;
+  #question_part .question_part_text .question_part_text_box .second_part_two_paragraph {
+    font-size: 11px;
     width: auto;
   }
 
 
-  #question_part .question_part_text .question_part_text_second .second_part_one_paragraph {
-    font-size: 11px;
-  }
 
-  #question_part .question_part_text .question_part_text_second .second_part_one_paragraph i {
-    margin-left: 20px;
-    line-height: 1.9;
-  }
-
-
-  #question_part .right_side_paragraph .foodTime {
-    margin-left: 98px !important;
-  }
-
-  #question_part .right_side_paragraph .foodTime2 {
-    margin-left: 85px !important;
-  }
 
 
   /* app section start here */
@@ -186,6 +205,8 @@
     text-align: center;
     margin: 37px auto;
   }
+
+
 
   /* footer section start here */
   footer .footerText p {
