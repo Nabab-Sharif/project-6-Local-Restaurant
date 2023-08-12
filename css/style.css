@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 
@@ -23,6 +24,7 @@ img {
 }
 
 .navbar-brand,
+.navbar,
 h1,
 h2,
 h3,
@@ -34,6 +36,10 @@ li {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+
+
+
 
 
 /* nav section style start here */
@@ -69,6 +75,7 @@ nav .navbar-nav .nav-item .nav-link {
 
 nav form {
   column-gap: 23px;
+  padding-bottom: 18px;
 }
 
 nav form a {
@@ -130,16 +137,20 @@ nav form .icon p {
 #banner_part {
   background: rgba(107, 145, 66, 0.1);
   position: relative;
+  padding: 249px 0 110px
 }
 
 #banner_part .text {
-  padding: 308px 0 139px;
   position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #banner_part .text .text_image {
   position: absolute;
-  top: 28px;
+  top: -215px;
   left: -100px;
   filter: blur(5px);
 }
@@ -215,23 +226,46 @@ nav form .icon p {
   height: 69px;
 }
 
-
 #banner_part .image {
-  padding: 249px 0 110px;
   position: relative;
-  z-index: 2;
 }
 
-#banner_part .image .patha {
-  position: absolute;
-  top: 102px;
-  left: 400px;
-  z-index: -1;
-  filter: blur(2.5px);
+#banner_part .container .row .col-lg-5 .image {
+  width: 499px;
+  height: 497px;
+  position: relative;
 }
+#banner_part .container .row .col-lg-5 .image img {
+  width: 100%;
+}
+
+
+#banner_part .container .row .col-lg-5 .pathaImage {
+	position: absolute;
+	top: -163px;
+	right: -144px;
+	width: 288px;
+	height: 288px;
+	transform: rotate(2deg);
+	z-index: -1;
+}
+
+/* #banner_part .image .rootImage{
+  width: 100%;
+}
+
+
+#banner_part .container .row .col-lg-5 .image .pathaImage {
+	position: absolute;
+	top: -144px;
+	right: -115px;
+	z-index: -1;
+	filter: blur(2.5px);
+} */
 
 
 /* banner section style end here */
+
 
 
 

@@ -17,7 +17,12 @@
 
   #banner_part .text p {
     font-size: 14px;
-    margin: 27px auto !important;
+    margin: 27px;
+  }
+
+
+  #banner_part .text form  {
+   width: 100%;
   }
 
   #banner_part .text form .ellips {
@@ -26,48 +31,44 @@
     left: 3px;
   }
 
+
+
   #banner_part .text form input {
     font-size: 13px;
-    padding: 16px 0 16px 34px;
-    width: 80%;
+    width: 100%;
     border: 1px solid #396C03;
     outline: none;
+    padding: 25px 0 25px 24px;
   }
 
   #banner_part .text form a {
-    padding: 21px 32px;
-    font-size: 13px;
-    left: 57%;
+    padding: 24px 32px;
+    font-size: 12px;
+    left: 50%;
+    width: 50%;
+    letter-spacing: 3px;
+    text-align: center;
   }
-
 
   #banner_part .text .text_image {
     left: -10px;
-    top: 30px;
+    top: -200px;
     width: 100%;
     max-width: 158px;
-
   }
 
-  #banner_part .image {
-    text-align: center;
-    padding: 0 !important;
-  }
+  #banner_part .container .row .col-lg-5 .image {
+    width: 300px;
+    height: auto;
+    margin: 50px auto;
+}
 
-  #banner_part .image .rootImage {
-    width: 100%;
-    max-width: 400px;
-  }
-
-  #banner_part .image .patha {
-    top: 161px;
-    left: 185px;
-    width: 100%;
-    max-width: 122px;
-  }
-
-
-
+#banner_part .container .row .col-lg-5 .pathaImage {
+	top: -41px;
+	right: -17px;
+	width: 100px;
+	height: 100px;
+}
 
   /* favoritecity section start here */
   #favouritecity_part {
