@@ -5,11 +5,11 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
+  text-decoration: none !important;
 }
 
 
 a {
-  text-decoration: none;
   display: inline-block;
 }
 
@@ -20,8 +20,12 @@ ul {
 }
 
 img {
-  display: inline-block;
+  display: block;
+  width: 100%;
+  object-fit: contain;
 }
+
+
 
 .navbar-brand,
 .navbar,
@@ -37,8 +41,12 @@ li {
   padding: 0 !important;
 }
 
-
-
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 0 !important;
+}
 
 
 
@@ -130,9 +138,6 @@ nav form .icon p {
 
 
 
-
-
-
 /* banner section style start here */
 #banner_part {
   background: rgba(107, 145, 66, 0.1);
@@ -151,9 +156,11 @@ nav form .icon p {
 #banner_part .text .text_image {
   position: absolute;
   top: -215px;
-  left: -100px;
+  left: -41px;
   filter: blur(5px);
+  width: 33%;
 }
+
 
 #banner_part .text h2 {
   color: #396C03;
@@ -164,8 +171,6 @@ nav form .icon p {
   line-height: 130%;
   width: 681px;
 }
-
-
 
 #banner_part .text p {
   color: #676767;
@@ -184,6 +189,8 @@ nav form .icon p {
 
 #banner_part .text form {
   position: relative;
+  width: 714px;
+  height: 69px;
 }
 
 #banner_part .text form input {
@@ -197,8 +204,8 @@ nav form .icon p {
   border-radius: 120px;
   border: 2px solid #396C03;
   background: #FFF;
-  width: 714px;
-  height: 69px;
+  width: 100%;
+  height: 100%;
 }
 
 #banner_part .text form .ellips {
@@ -212,7 +219,7 @@ nav form .icon p {
 
 
 #banner_part .text form a {
-  padding: 15px 50px;
+  padding: 16px 50px;
   border-radius: 100px;
   background: #396C03;
   color: #FFF;
@@ -235,34 +242,21 @@ nav form .icon p {
   height: 497px;
   position: relative;
 }
+
 #banner_part .container .row .col-lg-5 .image img {
   width: 100%;
 }
 
 
 #banner_part .container .row .col-lg-5 .pathaImage {
-	position: absolute;
-	top: -163px;
-	right: -144px;
-	width: 288px;
-	height: 288px;
-	transform: rotate(2deg);
-	z-index: -1;
+  position: absolute;
+  top: -153px;
+  right: -144px;
+  width: 288px;
+  height: 288px;
+  transform: rotate(2deg);
+  z-index: -1;
 }
-
-/* #banner_part .image .rootImage{
-  width: 100%;
-}
-
-
-#banner_part .container .row .col-lg-5 .image .pathaImage {
-	position: absolute;
-	top: -144px;
-	right: -115px;
-	z-index: -1;
-	filter: blur(2.5px);
-} */
-
 
 /* banner section style end here */
 
@@ -286,7 +280,6 @@ nav form .icon p {
 }
 
 
-
 #favouritecity_part .food_information p {
   width: 567px;
   color: #676767;
@@ -297,8 +290,6 @@ nav form .icon p {
   line-height: 160%;
   margin: 10px 0 14px !important;
 }
-
-
 
 
 #favouritecity_part .food_information a {
@@ -338,8 +329,6 @@ nav form .icon p {
   left: 99px;
 }
 
-
-
 #favouritecity_part .person_image .food_person {
   position: absolute;
   left: 85px;
@@ -348,10 +337,6 @@ nav form .icon p {
 }
 
 /* favourite city section style end here */
-
-
-
-
 
 
 /* food service section style start here */
@@ -364,7 +349,9 @@ nav form .icon p {
   border-radius: 15px;
 }
 
-
+#service_part .service_card img {
+  width: 23%;
+}
 
 #service_part .service_card:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -626,11 +613,6 @@ nav form .icon p {
 }
 
 
-
-#app_part .text .text_appAll .text_appAll_apptwo {
-  margin-left: 20px;
-}
-
 #app_part .text .text_appAll a img {
   border-radius: 15px;
 }
@@ -662,6 +644,9 @@ footer .footerText p {
   margin-top: 10px !important;
 }
 
+footer .footerText img {
+  width: 27%;
+}
 
 footer .footerMenu {
   display: flex;

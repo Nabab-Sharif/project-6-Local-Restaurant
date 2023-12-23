@@ -10,19 +10,25 @@
     display: none;
   }
 
+  /*........Start Banner Part.........*/
   #banner_part .text h2 {
     font-size: 22px;
     width: auto;
   }
 
   #banner_part .text p {
-    font-size: 14px;
-    margin: 27px;
+    font-size: 13px;
   }
 
+  #banner_part .text .text_image {
+    left: 3px;
+    top: -159px;
+    width: 100%;
+    max-width: 123px;
+  }
 
-  #banner_part .text form  {
-   width: 100%;
+  #banner_part .text form {
+    width: 100%;
   }
 
   #banner_part .text form .ellips {
@@ -31,48 +37,46 @@
     left: 3px;
   }
 
-
-
   #banner_part .text form input {
-    font-size: 13px;
+    font-size: 10px;
     width: 100%;
     border: 1px solid #396C03;
     outline: none;
-    padding: 25px 0 25px 24px;
+    padding: 15px 0 15px 24px;
   }
 
   #banner_part .text form a {
-    padding: 24px 32px;
-    font-size: 12px;
+    padding: 24px 20px;
+    font-size: 10px;
     left: 50%;
     width: 50%;
-    letter-spacing: 3px;
     text-align: center;
   }
 
-  #banner_part .text .text_image {
-    left: -10px;
-    top: -200px;
-    width: 100%;
-    max-width: 158px;
+  #banner_part .text form a i {
+    margin-right: 0.3rem;
   }
 
   #banner_part .container .row .col-lg-5 .image {
-    width: 300px;
-    height: auto;
+    width: 250px;
+    height: 100%;
     margin: 50px auto;
-}
 
-#banner_part .container .row .col-lg-5 .pathaImage {
-	top: -41px;
-	right: -17px;
-	width: 100px;
-	height: 100px;
-}
+  }
 
-  /* favoritecity section start here */
+  #banner_part .container .row .col-lg-5 .pathaImage {
+    top: -29px;
+    right: -87px;
+    width: 100px;
+    height: 100px;
+  }
+
+  /*........End Banner Part.........*/
+
+
+  /*........Start Favorite-City Part.........*/
   #favouritecity_part {
-    padding: 50px 0;
+    padding: 20px 0;
 
   }
 
@@ -82,11 +86,11 @@
   }
 
   #favouritecity_part .person_image {
-    width: 100%;
-    height: 203.667px;
+    width: 91%;
+    height: 182.667px;
     left: 0;
-    top: -33px;
   }
+
 
   #favouritecity_part .food_information h2 {
     width: auto;
@@ -95,10 +99,20 @@
 
   #favouritecity_part .food_information p {
     width: auto;
+    font-size: 11px;
+  }
+
+  #favouritecity_part .food_information a {
+    border-radius: 15px;
+    background: #36422a;
+    padding: 10px 23px;
+    color: #FFF;
     font-size: 14px;
   }
 
-
+  #favouritecity_part .food_information a i {
+    font-size: 14px;
+  }
 
   #favouritecity_part .person_image .food_person {
     left: 0;
@@ -114,10 +128,19 @@
 
   }
 
+  /*........End Favorite-City Part.........*/
 
 
+  /*........Start Food Service Part.........*/
+  #service_part .service_card {
+    padding: 35px 30px 15px 24px;
 
-  /* food sevice section start here */
+  }
+
+  #service_part .service_card img {
+    width: 26%;
+  }
+
   #service_part .service_card h4 {
     width: auto;
     font-size: 20px;
@@ -128,16 +151,17 @@
     width: auto;
   }
 
+  /*........End Food Service Part.........*/
 
 
-  /* food time section start here */
+  /*........Start Food time Part.........*/
+  #foodTime_part .foodTime_image {
+    padding: 240px 0 19px;
+  }
+
   #foodTime_part .foodTime_image a {
     padding: 10px 24px;
     font-size: 12px;
-  }
-
-  #foodTime_part .foodTime_image {
-    padding: 240px 0 19px;
   }
 
   #foodTime_part .foodTime_image h4 {
@@ -149,8 +173,10 @@
     font-size: 10px;
   }
 
+  /*........End Food time Part.........*/
 
-  /* question section start here */
+
+  /*........Start Question Part.........*/
   #question_part h3 {
     font-size: 21px;
   }
@@ -169,13 +195,7 @@
   }
 
   #question_part .question_part_text .question_and_icon i {
-    width: 20px;
-    height: 20px;
-    border-radius: 11px;
-    line-height: 1;
-    text-align: center;
-    border: 1px solid rgba(51, 51, 51, 0.3);
-    color: rgba(51, 51, 51, 0.5);
+    line-height: 1.4;
   }
 
   #question_part .question_part_text .question_part_text_box .second_part_two_paragraph {
@@ -183,11 +203,11 @@
     width: auto;
   }
 
+  /*........End Question Part.........*/
 
 
 
-
-  /* app section start here */
+  /*........Start App Part.........*/
   #app_part .text h4 {
     font-size: 26px;
   }
@@ -207,9 +227,10 @@
     margin: 37px auto;
   }
 
+  /*........End App Part.........*/
 
 
-  /* footer section start here */
+  /*........Start Footer Part.........*/
   footer .footerText p {
     font-size: 12px;
     width: auto;
@@ -224,6 +245,647 @@
 
   footer .footerMenu h4 {
     margin: 35px 0 !important;
+  }
+
+  /*........End Footer Part.........*/
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav {
+    z-index: 99;
+    background-color: darkgray;
+    top: 0;
+  }
+
+  .collapse show {
+    display: none;
+  }
+
+  /*........Start Banner Part.........*/
+  #banner_part .text h2 {
+    font-size: 22px;
+    width: auto;
+  }
+
+  #banner_part .text p {
+    font-size: 13px;
+  }
+
+  #banner_part .text .text_image {
+    left: 3px;
+    top: -159px;
+    width: 100%;
+    max-width: 123px;
+  }
+
+  #banner_part .text form {
+    width: 100%;
+  }
+
+  #banner_part .text form .ellips {
+    font-size: 17px;
+    top: 26px;
+    left: 3px;
+  }
+
+  #banner_part .text form input {
+    font-size: 10px;
+    width: 100%;
+    border: 1px solid #396C03;
+    outline: none;
+    padding: 15px 0 15px 24px;
+  }
+
+  #banner_part .text form a {
+    padding: 24px 20px;
+    font-size: 10px;
+    left: 50%;
+    width: 50%;
+    text-align: center;
+  }
+
+  #banner_part .text form a i {
+    margin-right: 0.3rem;
+  }
+
+  #banner_part .container .row .col-lg-5 .image {
+    width: 250px;
+    height: 100%;
+    margin: 50px auto;
+
+  }
+
+  #banner_part .container .row .col-lg-5 .pathaImage {
+    top: -29px;
+    right: -87px;
+    width: 100px;
+    height: 100px;
+  }
+
+  /*........End Banner Part.........*/
+
+
+  /*........Start Favorite-City Part.........*/
+  #favouritecity_part {
+    padding: 20px 0;
+
+  }
+
+  #favouritecity_part .row {
+    flex-direction: column-reverse;
+    row-gap: 250px;
+  }
+
+  #favouritecity_part .person_image {
+    width: 91%;
+    height: 182.667px;
+    left: 0;
+  }
+
+
+  #favouritecity_part .food_information h2 {
+    width: auto;
+    font-size: 35px;
+  }
+
+  #favouritecity_part .food_information p {
+    width: auto;
+    font-size: 11px;
+  }
+
+  #favouritecity_part .food_information a {
+    border-radius: 15px;
+    background: #36422a;
+    padding: 10px 23px;
+    color: #FFF;
+    font-size: 14px;
+  }
+
+  #favouritecity_part .food_information a i {
+    font-size: 14px;
+  }
+
+  #favouritecity_part .person_image .food_person {
+    left: 0;
+    width: 100%;
+    left: 15px;
+    top: 1px;
+
+  }
+
+
+  #favouritecity_part .food_person_picture {
+    margin-top: 189px;
+
+  }
+
+  /*........End Favorite-City Part.........*/
+
+
+  /*........Start Food Service Part.........*/
+  #service_part .service_card {
+    padding: 35px 30px 15px 24px;
+
+  }
+
+  #service_part .service_card img {
+    width: 26%;
+  }
+
+  #service_part .service_card h4 {
+    width: auto;
+    font-size: 20px;
+  }
+
+  #service_part .service_card p {
+    font-size: 13px;
+    width: auto;
+  }
+
+  /*........End Food Service Part.........*/
+
+
+  /*........Start Food time Part.........*/
+  #foodTime_part .foodTime_image {
+    padding: 240px 0 19px;
+  }
+
+  #foodTime_part .foodTime_image a {
+    padding: 10px 24px;
+    font-size: 12px;
+  }
+
+  #foodTime_part .foodTime_image h4 {
+    font-size: 18px;
+
+  }
+
+  #foodTime_part .foodTime_image p {
+    font-size: 10px;
+  }
+
+  /*........End Food time Part.........*/
+
+
+  /*........Start Question Part.........*/
+  #question_part h3 {
+    font-size: 21px;
+  }
+
+  #question_part .question_part_titile a {
+    font-size: 13px;
+    padding: 10px 28px;
+  }
+
+  #question_part .question_part_text {
+    margin-bottom: 87px;
+  }
+
+  #question_part .question_part_text .question_and_icon p {
+    font-size: 10px;
+  }
+
+  #question_part .question_part_text .question_and_icon i {
+    line-height: 1.4;
+  }
+
+  #question_part .question_part_text .question_part_text_box .second_part_two_paragraph {
+    font-size: 11px;
+    width: auto;
+  }
+
+  /*........End Question Part.........*/
+
+
+
+  /*........Start App Part.........*/
+  #app_part .text h4 {
+    font-size: 26px;
+  }
+
+  #app_part .text p {
+    width: auto;
+    font-size: 12px;
+  }
+
+  #app_part .text .text_appAll .text_appAll_apptwo {
+    margin-left: 0;
+    margin-top: 14px;
+  }
+
+  .text_appAll {
+    text-align: center;
+    margin: 37px auto;
+  }
+
+  /*........End App Part.........*/
+
+
+  /*........Start Footer Part.........*/
+  footer .footerText p {
+    font-size: 12px;
+    width: auto;
+  }
+
+  footer .footerMenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 74px;
+    text-align: center;
+  }
+
+  footer .footerMenu h4 {
+    margin: 35px 0 !important;
+  }
+
+  /*........End Footer Part.........*/
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  nav {
+    z-index: 99;
+    background-color: darkgray;
+    top: 0;
+  }
+
+  .collapse show {
+    display: none;
+  }
+
+  /*........Start Banner Part.........*/
+  #banner_part .text h2 {
+    font-size: 22px;
+    width: auto;
+  }
+
+  #banner_part .text p {
+    font-size: 13px;
+  }
+
+  #banner_part .text .text_image {
+    left: 3px;
+    top: -159px;
+    width: 100%;
+    max-width: 123px;
+  }
+
+  #banner_part .text form {
+    width: 100%;
+  }
+
+  #banner_part .text form .ellips {
+    font-size: 17px;
+    top: 26px;
+    left: 3px;
+  }
+
+  #banner_part .text form input {
+    font-size: 10px;
+    width: 100%;
+    border: 1px solid #396C03;
+    outline: none;
+    padding: 15px 0 15px 24px;
+  }
+
+  #banner_part .text form a {
+    padding: 24px 20px;
+    font-size: 10px;
+    left: 50%;
+    width: 50%;
+    text-align: center;
+  }
+
+  #banner_part .text form a i {
+    margin-right: 0.3rem;
+  }
+
+  #banner_part .container .row .col-lg-5 .image {
+    width: 250px;
+    height: 100%;
+    margin: 50px auto;
+
+  }
+
+  #banner_part .container .row .col-lg-5 .pathaImage {
+    top: -29px;
+    right: -87px;
+    width: 100px;
+    height: 100px;
+  }
+
+  /*........End Banner Part.........*/
+
+
+  /*........Start Favorite-City Part.........*/
+  #favouritecity_part {
+    padding: 20px 0;
+
+  }
+
+  #favouritecity_part .row {
+    flex-direction: column-reverse;
+    row-gap: 250px;
+  }
+
+  #favouritecity_part .person_image {
+    width: 91%;
+    height: 182.667px;
+    left: 0;
+  }
+
+
+  #favouritecity_part .food_information h2 {
+    width: auto;
+    font-size: 35px;
+  }
+
+  #favouritecity_part .food_information p {
+    width: auto;
+    font-size: 11px;
+  }
+
+  #favouritecity_part .food_information a {
+    border-radius: 15px;
+    background: #36422a;
+    padding: 10px 23px;
+    color: #FFF;
+    font-size: 14px;
+  }
+
+  #favouritecity_part .food_information a i {
+    font-size: 14px;
+  }
+
+  #favouritecity_part .person_image .food_person {
+    left: 0;
+    width: 100%;
+    left: 15px;
+    top: 1px;
+
+  }
+
+
+  #favouritecity_part .food_person_picture {
+    margin-top: 189px;
+
+  }
+
+  /*........End Favorite-City Part.........*/
+
+
+  /*........Start Food Service Part.........*/
+  #service_part .service_card {
+    padding: 35px 30px 15px 24px;
+
+  }
+
+  #service_part .service_card img {
+    width: 26%;
+  }
+
+  #service_part .service_card h4 {
+    width: auto;
+    font-size: 20px;
+  }
+
+  #service_part .service_card p {
+    font-size: 13px;
+    width: auto;
+  }
+
+  /*........End Food Service Part.........*/
+
+
+  /*........Start Food time Part.........*/
+  #foodTime_part .foodTime_image {
+    padding: 240px 0 19px;
+  }
+
+  #foodTime_part .foodTime_image a {
+    padding: 10px 24px;
+    font-size: 12px;
+  }
+
+  #foodTime_part .foodTime_image h4 {
+    font-size: 18px;
+
+  }
+
+  #foodTime_part .foodTime_image p {
+    font-size: 10px;
+  }
+
+  /*........End Food time Part.........*/
+
+
+  /*........Start Question Part.........*/
+  #question_part h3 {
+    font-size: 21px;
+  }
+
+  #question_part .question_part_titile a {
+    font-size: 13px;
+    padding: 10px 28px;
+  }
+
+  #question_part .question_part_text {
+    margin-bottom: 87px;
+  }
+
+  #question_part .question_part_text .question_and_icon p {
+    font-size: 10px;
+  }
+
+  #question_part .question_part_text .question_and_icon i {
+    line-height: 1.4;
+  }
+
+  #question_part .question_part_text .question_part_text_box .second_part_two_paragraph {
+    font-size: 11px;
+    width: auto;
+  }
+
+  /*........End Question Part.........*/
+
+
+
+  /*........Start App Part.........*/
+  #app_part .text h4 {
+    font-size: 26px;
+  }
+
+  #app_part .text p {
+    width: auto;
+    font-size: 12px;
+  }
+
+  #app_part .text .text_appAll .text_appAll_apptwo {
+    margin-left: 0;
+    margin-top: 14px;
+  }
+
+  .text_appAll {
+    text-align: center;
+    margin: 37px auto;
+  }
+
+  /*........End App Part.........*/
+
+
+  /*........Start Footer Part.........*/
+  footer .footerText p {
+    font-size: 12px;
+    width: auto;
+  }
+
+  footer .footerMenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 74px;
+    text-align: center;
+  }
+
+  footer .footerMenu h4 {
+    margin: 35px 0 !important;
+  }
+
+  /*........End Footer Part.........*/
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  /*...........Start Banner Part............*/
+  #banner_part .text .text_image {
+    top: -178px;
+    left: 8px;
+  }
+
+  #banner_part .text h2 {
+    font-size: 35px;
+    width: auto;
+  }
+
+  #banner_part .text form {
+    width: 459px;
+  }
+
+  #banner_part .container .row .col-lg-5 .image {
+    width: 361px;
+    height: 513px;
+
+  }
+
+  #banner_part .container .row .col-lg-5 .image img {
+    height: 100%;
+  }
+
+  #banner_part .container .row .col-lg-5 .pathaImage {
+    top: -67px;
+    right: -91px;
+    width: 288px !important;
+    height: 288px !important;
+  }
+
+  #banner_part .text form a {
+    padding: 25px 51px;
+    font-size: 11px;
+    left: 304px;
+  }
+
+  #banner_part .text form input {
+    font-size: 15px;
+  }
+
+  #banner_part .text form .ellips {
+    font-size: 40px;
+    top: 16px;
+  }
+
+  /*...........End Banner Part............*/
+
+
+  /*...........Start Favourite City Part............*/
+  #favouritecity_part .food_information h2 {
+    width: auto;
+    font-size: 31px;
+  }
+
+  #favouritecity_part .food_information p {
+    width: auto;
+    font-size: 15px;
+  }
+
+  #favouritecity_part .food_information a {
+    padding: 14px 44px;
+    font-size: 17px;
+  }
+
+  #favouritecity_part .person_image {
+    width: 460px;
+    top: -134px;
+    left: 71px;
+  }
+
+  #favouritecity_part .person_image .food_person {
+    left: 2px;
+    top: 134px;
+  }
+
+  /*...........End Favourite City Part............*/
+
+
+  /*...........Start Food Service Part............*/
+  #service_part .service_card {
+    padding: 60px 47px 38px 24px;
+  }
+
+  #service_part .service_card h4 {
+    width: auto;
+    font-size: 19px;
+  }
+
+  #service_part .service_card h4 {
+    width: auto;
+    font-size: 19px;
+
+  }
+
+  /*...........End Food Service Part............*/
+
+
+  /*...........Start Question Part............*/
+  #question_part .question_part_text .question_part_text_box .second_part_two_paragraph {
+    width: auto;
+  }
+
+  /*...........End Question Part............*/
+
+
+  /*...........Start App Part............*/
+  #app_part .text h4 {
+    font-size: 36px;
+  }
+
+  #app_part .text p {
+    width: auto;
+    font-size: 17px;
+  }
+
+  /*...........End App Part............*/
+
+  /*...........Start Footer Part............*/
+
+  footer .footerText p {
+    font-size: 17px;
+    width: auto;
   }
 
 }
