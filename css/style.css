@@ -155,11 +155,13 @@ nav form .icon p {
 
 #banner_part .text .text_image {
   position: absolute;
-  top: -215px;
+  top: -128px;
   left: -41px;
-  filter: blur(5px);
+  filter: blur(4px);
   width: 33%;
+  height: 47%;
 }
+
 
 
 #banner_part .text h2 {

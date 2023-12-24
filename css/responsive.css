@@ -6,6 +6,19 @@
     top: 0;
   }
 
+  nav button .navbar-toggler {
+    box-shadow: none;
+  }
+
+
+  button:focus:not(:focus-visible) {
+    box-shadow: none;
+  }
+
+  nav .navbar-brand img {
+    height: 50%;
+  }
+
   .collapse show {
     display: none;
   }
@@ -22,9 +35,10 @@
 
   #banner_part .text .text_image {
     left: 3px;
-    top: -159px;
-    width: 100%;
-    max-width: 123px;
+    top: -126px;
+    width: max-content !important;
+    height: 73%;
+    filter: blur(2px);
   }
 
   #banner_part .text form {
@@ -65,9 +79,9 @@
   }
 
   #banner_part .container .row .col-lg-5 .pathaImage {
-    top: -29px;
-    right: -87px;
-    width: 100px;
+    top: -15px;
+    right: -12px;
+    width: max-content !important;
     height: 100px;
   }
 
@@ -116,10 +130,9 @@
 
   #favouritecity_part .person_image .food_person {
     left: 0;
-    width: 100%;
-    left: 15px;
+    width: 88%;
+    left: 32px;
     top: 1px;
-
   }
 
 
@@ -275,10 +288,12 @@
 
   #banner_part .text .text_image {
     left: 3px;
-    top: -159px;
-    width: 100%;
-    max-width: 123px;
+    top: -126px;
+    width: max-content !important;
+    height: 73%;
+    filter: blur(2px);
   }
+
 
   #banner_part .text form {
     width: 100%;
@@ -318,9 +333,9 @@
   }
 
   #banner_part .container .row .col-lg-5 .pathaImage {
-    top: -29px;
-    right: -87px;
-    width: 100px;
+    top: -15px;
+    right: -12px;
+    width: max-content !important;
     height: 100px;
   }
 
@@ -530,9 +545,10 @@
 
   #banner_part .text .text_image {
     left: 3px;
-    top: -159px;
-    width: 100%;
-    max-width: 123px;
+    top: -126px;
+    width: max-content !important;
+    height: 73%;
+    filter: blur(2px);
   }
 
   #banner_part .text form {
@@ -573,10 +589,10 @@
   }
 
   #banner_part .container .row .col-lg-5 .pathaImage {
-    top: -29px;
-    right: -87px;
-    width: 100px;
-    height: 100px;
+    top: -30px;
+    right: -50px;
+    width: max-content !important;
+    height: 150px;
   }
 
   /*........End Banner Part.........*/
@@ -763,9 +779,13 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
   /*...........Start Banner Part............*/
+
   #banner_part .text .text_image {
-    top: -178px;
-    left: 8px;
+    left: 3px;
+    top: -126px;
+    width: max-content !important;
+    height: 73%;
+    filter: blur(2px);
   }
 
   #banner_part .text h2 {
@@ -788,11 +808,12 @@
   }
 
   #banner_part .container .row .col-lg-5 .pathaImage {
-    top: -67px;
-    right: -91px;
-    width: 288px !important;
-    height: 288px !important;
+    top: -15px;
+    right: -6px;
+    width: max-content !important;
+    height: 200px !important;
   }
+
 
   #banner_part .text form a {
     padding: 25px 51px;
